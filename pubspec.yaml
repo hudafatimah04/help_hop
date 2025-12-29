@@ -1,0 +1,27 @@
+name: help_hop
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0-290.4.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_blue_plus: ^1.34.0
+  flutter_ble_peripheral: ^1.0.5
+  geolocator: ^10.1.0
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
